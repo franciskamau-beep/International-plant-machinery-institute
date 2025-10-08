@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Registration | International Plant Machinery Institute</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>International Plant Machinery Institute</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses & Registration</a></li>
+                <li><a href="graduation.html">Graduation Event</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Course Registration</h2>
+            <p>
+                Choose your preferred course and fill in the registration form below to 
+                become part of our training programs.
+            </p>
+        </section>
+
+        <div class="registration-form">
+            <form>
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="course">Select Course:</label>
+                <select id="course" name="course" required>
+                    <option value="">--Choose a Course--</option>
+                    <option>Excavator Operation</option>
+                    <option>Bulldozer Handling</option>
+                    <option>Crane Rigging</option>
+                    <option>Hydraulic Systems</option>
+                    <option>Plant Management</option>
+                </select>
+
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 International Plant Machinery Institute. All rights reserved.</p>
+    </footer>
+</body>
+</html>
